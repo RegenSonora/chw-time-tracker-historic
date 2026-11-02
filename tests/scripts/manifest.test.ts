@@ -23,8 +23,8 @@ function pngSize(path: string): string {
 }
 
 describe('manifest (SPEC §2, §10; decision 0017)', () => {
-  it('installs as "CHW Time Tracker", standalone, inside the app folder', () => {
-    expect(manifest.name).toBe('CHW Time Tracker');
+  it('installs as "CHW Time Tracker Historic", standalone, inside the app folder', () => {
+    expect(manifest.name).toBe('CHW Time Tracker Historic');
     expect(manifest).toMatchObject({
       id: './',
       start_url: './',

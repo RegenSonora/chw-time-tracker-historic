@@ -43,7 +43,7 @@ export function TimerRunning() {
 
   return (
     <Page
-      title="CHW Time Tracker"
+      title="CHW Time Tracker Historic"
       aside={
         <HomeHeaderAside
           onChip={() => {
